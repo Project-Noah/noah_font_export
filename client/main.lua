@@ -17,7 +17,7 @@ for index, font in pairs(Config.Fonts) do
                trace(('Font %s loaded as id %s'):format(index, fontId))
           end)
      else
-          trace(('Font %s failed to loaded. Because FontIf or fontFile is nil'):format(index))
+          trace(('Font %s failed to loaded. Because FontId or fontFile is nil'):format(index))
      end
 end
 
